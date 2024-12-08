@@ -1,0 +1,123 @@
+/* 
+class : . (multiple elements that don't share the same tag name)
+id : # (a single element)
+tagName : tagNAme (multiple elements that share the same tag name)
+*/
+
+h1{
+    color: yellow;
+}
+
+#third_title{
+    color: red;
+}
+
+.the_blue_titles{
+    color: blue;
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+#first_image{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#first_div{
+    display: flex;
+    border: 1px solid red;
+    height: 100px;
+    background-color: blueviolet;
+}
+#inner_div_one{
+    height: 40px;
+    background-color:blue;
+    width: 50%;
+}
+#inner_div_two{
+    height: 40px;
+    background-color:#fff;
+    width: 50%;
+
+}
+
+
+.divs{
+    width: 300px;
+    height: 150px;
+    border: 2px solid green;
+}
+#divs_container {
+    /* display:flex; */
+}
+
+.flag_strip{
+    width: 600px;
+    height: 100px;
+    border: 1px solid yellow;
+}
+
+#black{
+    background-color: black;
+}
+#yellow{
+    background-color: yellow;
+}
+
+#container {
+    display: flex;
+    background-color: black;
+    width: fit-content;
+    padding: 20px;
+    
+}
+
+#blue{
+    background-color:blue;
+
+}
+#white{
+    background-color: white;
+}
+
+#red{
+    background-color: red;
+}
+
+.french_flag_dimensions{
+    width: 50px;
+    height: 100px;
+}
+
+
+#div_four{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    display:flex;
+
+    /* centers horizontally */
+    justify-content: center;
+    
+    /* centers vertically */
+    align-items: center;
+}
+
+#Japanese_flag{
+    background-color: #fff;
+    border: 1px solid black ;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red_circle{
+    
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
